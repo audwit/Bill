@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Interrupt</string>
+    <string name="action_settings">Settings</string>
+    <string name="status">Status:</string>
+
+    <!-- Strings for the button displays -->
+    <string name="btn1">Manage Locations</string>
+    <string name="btn2">Manage Schedules</string>
+    <string name="btn3">Manage Time of Day</string>
+    <string name="btn4">Manage Contact Preferences</string>
+    <string name="btn5">Manage Phone Profile</string>
+    <string name="btn6">Help</string>
+    <string name="btn7">About</string>
+    <string name="title_activity_contact">Group Preferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="createGroup">Create A New Group</string>
+    <string name="createBtn">Create</string>
+    <string name="groups">Groups:</string>
+    <string name="deletefirst">Delete first Group</string>
+    <string name="title_activity_contact_info">Group Contact Info</string>
+    <string name="deleteBtntxt">X</string>
+
+    <!-- Contact Info Activity Strings -->
+    <string name="groupName"> Group Name:</string>
+    <string name="preference"> Preference: </string>
+    <string name="contacts"> Contacts: </string>
+    <string name="add_contacts"> Add Contacts</string>
+
+    <!-- Preference spinner -->
+    <string-array name="preference_spinner">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="call_preference">Interruption Preference</string>
+
+    <!-- call preference spinner -->
+    <string-array name="call_preference_spinner">
+        <item>Ring</item>
+        <item>Vibrate</item>
+    </string-array>
+
+    <!-- All of the strings for the Weights UI -->
+    <string name="title_activity_weights">Weight Preferences</string>
+    <string name="weight_preferences">Please chose the order of importance when deciding on whether or not you would want to be interrupted</string>
+    <string name="most_important">Most Important</string>
+    <string name="least_important">Least Important</string>
+
+    <!-- The String array for the weight options of the spinners -->
+    <string-array name="weight_spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Strings for Contact Activity -->
+    <string name="defaultProbability">Default Probability</string>
+    <string name="contactPreferences">Contact Preferences</string>
+
+    <!-- Strings for the buttons -->
+    <string name="ubutton">U</string>
+    <string name="dbutton">D</string>
+    <string name="title_activity_schedule">Schedule Preferences</string>
+    <string name="title_activity_time_of_day">Time Of Day Profiles</string>
+
+    <!-- String for Driving Preferences -->
+    <string name="title_activity_driving">Driving Preferences</string>
+    <string name="drivingtxt">What is the probability you would want an interruption while driving?</string>
+    <string name="defaultdrivingtxt">Set the default probability for when you are not driving</string>
+    <string name="title_activity_activity_scan">ActivityScan</string>
+    <string name="drivingDisclaimer">This context requires a constant connection to Google Play Services. Verify this is okay</string>
+    <string name="location_services_not_enabled">Location Services Not Enabled</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="Cancel">Cancel</string>
+
+    <!-- String for Schedule Activity -->
+    <string name="defaultEventProbability"> Select the default Probability of Interruption for an Event</string>
+    <string name="nonEventDefaultProbability"> Select the default Probability of Interruption when no event is scheduled.</string>
+    <string name="defaultMOI">Select the default Method of Interruption for an Event</string>
+
+    <!-- Strings for Time of Day -->
+    <string name="createNewTODprofile"> Create New Time of Day Profile</string>
+    <string name="timeOfDayProfiles"> Time of Day Profiles</string>
+    <string name="title_activity_time_of_day_preferences">Time Of Day Preferences</string>
+
+    <!-- Strings for Time of Day Preferences -->
+    <string name="setStartTime">Set Start Time</string>
+    <string name="setEndTime">Set End Time</string>
+    <string name="selectDays">Select the Days of the Week for which this preference is applicable</string>
+    <string name="title_activity_location">Location Profiles</string>
+    <string name="title_activity_location_preferences">Location Preferences</string>
+
+    <!-- Strings for Location Preferences -->
+    <string name="currentLocation">Currently Set Location</string>
+    <string name="setLocation">Set Location</string>
+    <string name="title_activity_default_profile">DefaultProfileActivity</string>
+    
+    <!-- Strings for Default Profile -->
+    <string name="setDefaultPhoneProfile">If none of the context are met, what mode would you like your phone set to?</string>
+     <string-array name="default_call_preference_spinner">
+        <item>Silent</item>
+        <item>Vibrate</item>
+        <item>Ring</item>
+    </string-array>
+    
+     <!-- Strings for the Main Activity -->
+     <string name="appOnOff">Turn App On/Off</string>
+    
+
+</resources>

@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".TimeOfDayPreferences" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preference" 
+    	/>
+    <Spinner 
+        android:id="@+id/tod_preference_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/call_preference"
+        
+        />
+    
+    <Spinner
+        android:id="@+id/tod_call_preference_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <Button
+        android:id="@+id/setStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterTime"
+        android:text="@string/setStartTime"
+        />
+    
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <Button
+        android:id="@+id/setEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterTime"
+        android:text="@string/setEndTime"
+        />
+    
+    <!-- My current plan is to not use a listView, but list the information as toggle buttons, this will make
+    it so I don't have to use a custom adapter, and the fun that goes along with that-->
+   <TextView
+       android:id="@+id/selectDays"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/selectDays"
+       />
+   
+  
+  
+    <ToggleButton
+        android:id="@+id/toggleMonday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Monday"
+        android:textOn="Monday"
+        android:onClick="onToggleClicked"    
+        />
+     <ToggleButton
+        android:id="@+id/toggleTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Tuesday"
+        android:textOn="Tuesday"
+        android:onClick="onToggleClicked"    
+        />
+      <ToggleButton
+        android:id="@+id/toggleWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Wednesday"
+        android:textOn="Wednesday"
+        android:onClick="onToggleClicked"    
+        />
+       <ToggleButton
+        android:id="@+id/toggleThursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Thursday"
+        android:textOn="Thursday"
+        android:onClick="onToggleClicked"    
+        />
+        <ToggleButton
+        android:id="@+id/toggleFriday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Friday"
+        android:textOn="Friday"
+        android:onClick="onToggleClicked"    
+        />
+         <ToggleButton
+        android:id="@+id/toggleSaturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Saturday"
+        android:textOn="Saturday"
+        android:onClick="onToggleClicked"    
+        />
+         
+          <ToggleButton
+        android:id="@+id/toggleSunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textOff="Sunday"
+        android:textOn="Sunday"
+        android:onClick="onToggleClicked"    
+        />
+        
+
+    
+    
+</LinearLayout>
+
+        </ScrollView>
